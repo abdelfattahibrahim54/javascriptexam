@@ -1,0 +1,360 @@
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Yummy</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--!=====> favicon -->
+    <link rel="icon" href="images/logo.png" />
+
+
+
+
+
+    <!-- ------------animate css ---------------- -->
+
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+
+
+    <!-- ------------font awesome ---------------- -->
+    <link rel="stylesheet" href="css/all.min.css">
+    <!-- ------------bootstrap ---------------- -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+
+
+    <!-- ------------Main style ---------------- -->
+    <link rel="stylesheet" href="css/style.css">
+
+
+
+</head>
+
+<body>
+
+    <nav id="sideBar">
+
+
+        <div class=" d-flex justify-content-center align-items-center">
+
+            <div
+                class="navitemsCont  align-self-stretch  d-flex flex-column align-items-center justify-content-between p-4">
+                <div class="w-100">
+                    <ul class="p-0 ">
+                        <li class="nav-item animateli " id="searCH" ><a href="#"> <span>Search</span></a></li>
+                        <li class="nav-item animateli " id="categories"><a href="#"> <span>Categories</span></a></li>
+                        <li class="nav-item animateli " id="areas"><a href="#"> <span>Area</span></a></li>
+                        <li class="nav-item animateli " id="ingredients"><a href="#"> <span>Ingredients</span></a></li>
+                        <li class="nav-item animateli " id="COntact"><a href="#"> <span>Contact Us</span></a></li>
+                    </ul>
+                </div>
+                <div class="text-white">
+                    <i class="fa-brands fa-facebook "></i>
+                    <i class="fa-brands fa-twitter "></i>
+                    <i class="fa-solid fa-globe "></i>
+                    <p>Copyright Â© 2019 All Rights
+                        Reserved.</p>
+                </div>
+
+
+
+            </div>
+
+
+            <div
+                class="sideControl  py-4 d-flex flex-column justify-content-between align-items-center bg-white align-self-stretch fs-2">
+                <img src="images/logo.png" class="w-75" alt="">
+
+
+                <i class="fa-solid fa-bars openSidebar"></i>
+
+
+                <div class="d-flex flex-column fs-6 "> <i class="fa-solid fa-globe my-1"></i> <i
+                        class="fa-solid fa-share-nodes  my-1"></i> </div>
+            </div>
+
+
+
+
+
+
+        </div>
+
+
+
+
+
+
+
+    </nav>
+
+
+
+    <section id="Meals" class="">
+
+        <div class="container py-5">
+
+
+            <div class="row mb-4 d-none" id="search">
+
+                <div class="col-lg-6 ">
+                    <input type="text" name="SearchbyName" id="SearchbyName" class="form-control" placeholder="Search By Name">
+                </div>
+
+
+                <div class="col-lg-6 ">
+                    <input type="text" name="SearchbyFL" id="SearchbyFL" maxlength="1" class="form-control"
+                        placeholder="Search By first letter">
+                </div>
+
+            </div>
+
+            <div class="row g-4 mealsRow">
+
+    
+
+            </div>
+        </div>
+
+
+    </section>
+
+
+    <section id="categ" class="">
+
+        <div class="container py-5">
+
+
+           
+
+            <div class="row g-4 mealsRowCat">
+
+        
+
+            </div>
+        </div>
+
+
+    </section>
+
+  
+
+    <section id="mealDesc" class="d-none">
+
+        <!-- <div class="container">
+            <div class="row p-5 text-white">
+                <div class="col-lg-4 px-3 " ><img src="images/58oia61564916529.jpg" id="mealimg" class="w-100 rounded rounded-3"
+                        alt="">
+                    <h2>Cobra</h2>
+                </div>
+
+                <div class="col-lg-8 px-3">
+                    <h3 class="my-0">Instructions</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem asperiores perspiciatis dolorum
+                        amet illum a ipsam, officiis dolor eveniet architecto sapiente magnam exercitationem facere
+                        commodi eius voluptates magni dignissimos quibusdam similique molestias consequuntur? Voluptates
+                        distinctio ullam delectus sit maiores dolor corrupti suscipit ab sunt neque voluptate dolorem
+                        amet, saepe laudantium!</p>
+                    <h3>Area: <span>Turkish</span></h3>
+                    <h3>Category: <span>Side</span></h3>
+                    <h4>Recipes</h4>
+
+                    <div >
+                        <span class="btn btn-info"> 1 cup Lentils </span>
+
+                    </div>
+
+                    <h4>Tags:</h4>
+
+                    <div>
+                        <span class="btn btn-warning"> Soup </span>
+                    </div>
+
+                    <button class="btn bg-success">Source</button>
+                    <button class="btn bg-danger">Youtube</button>
+
+                </div>
+
+
+
+
+
+
+            </div>
+
+
+
+        </div> -->
+
+
+    </section>
+
+
+    <section id="Area" class="">
+
+        <div class="container py-5">
+
+            <div class="row g-4">
+
+                <div class=" col-lg-3 text-center text-white position-relative">
+
+                    <i class="fa-solid fa-house-laptop fa-4x"></i>
+
+                    <h3>American</h3>
+
+                    <div class="overlayArea top-0  w-100 h-100 position-absolute z-3 opacity-0 bg-danger"></div>
+
+                </div>
+
+
+            </div>
+        </div>
+
+
+    </section>
+
+
+    <section id="Ingridents" class="d-none">
+
+         <div class="container py-5">
+
+            <div class="row g-4">
+
+
+            </div>
+        </div> 
+
+
+    </section>
+
+
+    <section id="subscribtion" class="d-none">
+
+
+
+        <div class="container w-75  d-flex align-items-center justify-content-center ">
+
+            <div class="row">
+                <div class="col-lg-6">
+
+                    <input type="text" name="UName" id="UName" placeholder="Enter Your Name" class="form-control mb-3 ">
+
+
+                    <div id="NAlert" class="alert alert-danger text-center d-none "><p>Special characters and numbers not allowed</p></div>
+
+
+
+
+                </div>
+
+
+                
+
+                <div class="col-lg-6">
+
+                    <input type="text" name="UEmail" id="UEmail" placeholder="Enter Your Email" class="form-control mb-3">
+
+
+
+                    <div id="EAlert" class="alert alert-danger text-center d-none"><p>Email not valid *exemple@yyy.zzz</p></div>
+
+
+                </div>
+                <div class="col-lg-6">
+
+                    <input type="text" name="UPhone" id="UPhone" placeholder="Enter Your Phone" class="form-control mb-3">
+
+                    <div id="PAlert" class="alert alert-danger text-center d-none"><p>Enter valid Phone Number</p></div>
+
+                </div>
+                <div class="col-lg-6">
+
+                    <input type="number" name="UAge" id="UAge" placeholder="Enter Your Age" class="form-control mb-3">
+
+                    <div id="AAlert" class="alert alert-danger text-center d-none"><p>Enter valid age</p></div>
+
+                </div>
+                <div class="col-lg-6">
+
+                    <input type="password" name="Upassword" id="Upassword" placeholder="Enter Your Password"
+                        class="form-control mb-3">
+
+                        <div id="PWAlert" class="alert alert-danger text-center d-none"><p>Enter valid password *Minimum eight characters, at least one letter and one number and one sympol :*</p></div>
+
+                </div>
+                <div class="col-lg-6">
+
+                    <input type="password" name="Upassword_check" id="Upassword_check" placeholder="Repeat Your Password"
+                        class="form-control mb-3">
+
+                        <div id="REAlert" class="alert alert-danger text-center d-none"><p>Enter valid repassword</p></div>
+
+                </div>
+
+                <div class="col-lg-12 text-center ">
+
+                    <button id="SSSubmit" disabled class="btn btn-danger m-auto">Submit</button>
+                </div>
+            </div>
+
+        </div>
+
+
+
+
+
+
+
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- ------------JS bootstrap ---------------- -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+
+
+    <!-- ------------JS bootstrap ---------------- -->
+
+    <script src="js/code.jquery.com_jquery-3.7.1.min.js"></script>
+
+
+
+    <!-- ------------JS MAIN ---------------- -->
+    <!-- <script src="js/Main.js"></script> -->
+    <script src="js/temp.js"></script>
+
+
+
+
+</body>
+
+</html>

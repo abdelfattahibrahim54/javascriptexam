@@ -1,0 +1,93 @@
+
+
+
+body{background-color: #0d0d0d;}
+
+
+
+
+
+
+
+
+
+/* ---------------side bar ------------------------*/
+
+#sideBar{
+    position: fixed;
+    left: 0px ; 
+    top: 0px;
+    background-color: red;
+    display: flex;
+    height: 100vh;
+    width: 325px;
+    align-items: stretch;
+    z-index: 999;
+}
+
+.navitemsCont{ width: 80%; background-color: #0d0d0d;}
+.navitemsCont ul{overflow: hidden;}
+.navitemsCont ul li {list-style: none; margin-block: 15px; transition: all 0.5s ease-in;}
+.animateli {transform: translateY(200px);}
+.navitemsCont ul li a{ text-decoration: none; color: white; }
+
+
+.sideControl{
+    width: 20%;
+}
+
+.openSidebar{cursor: pointer;}
+
+/* --------------------meals-------------------- */
+
+
+.meal{cursor: pointer;}
+.meal:hover .overly {transform: translateY(0%)}
+ .overly{left: 0; top: 0; transform: translateY(100%); transition: all 0.4s; background-color: rgba(255, 255, 255, 0.552);}
+
+#Meals .form-control {background-color: transparent;}
+#Meals .form-control::placeholder{color: #444;}
+
+ /* --------------------meal desc-------------------- */
+
+#mealDesc h3 ,#mealDesc h4 {
+
+margin-block: 15px;
+
+
+
+}
+
+#mealDesc span ,#mealDesc button {
+
+    margin-top: 10px;
+
+}
+
+
+.overlayArea{cursor: pointer;}
+
+
+
+
+
+
+ /* --------------------subscribtion-------------------- */
+
+#subscribtion .container {
+    height: 100vh;
+   
+}
+
+.overlayING{z-index: 99 !important; cursor: pointer;}
+
+
+
+/* --------------------search-------------------- */
+
+
+
+
+#Meals input { 
+     color: white;
+}
